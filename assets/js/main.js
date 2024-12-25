@@ -134,6 +134,12 @@
     selector: '.glightbox'
   });
 
+  document.querySelectorAll('.go-home').forEach(function(obj) {
+    obj.addEventListener('click', function() {
+      window.location.href = 'https://www.treescutcheaper.com';
+    }, false);
+  });
+
   /**
    * Init isotope layout and filters
    */
