@@ -111,10 +111,10 @@ h6 {
 
 .php-email-form .loading {
   display: none;
-  background: var(--surface-color);
+  /* background: var(--surface-color); */
   text-align: center;
   padding: 15px;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 
 .php-email-form .loading:before {
