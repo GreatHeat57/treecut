@@ -140,6 +140,13 @@
     }, false);
   });
 
+  document.querySelectorAll('.form-control').forEach(function(obj) {
+    obj.addEventListener('input', (event) => {
+      document.querySelector('.error-message').classList.remove('d-block');
+      document.querySelector('.sent-message').classList.remove('d-block');
+    });
+  });
+
   /**
    * Init isotope layout and filters
    */
